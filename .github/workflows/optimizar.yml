@@ -1,0 +1,12 @@
+name: Optimizar imágenes
+on: [push]
+
+jobs:
+  optimizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: calibre/image-actions@v1
+        with:
+          compress: true
+          formats: jpg,png
