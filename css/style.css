@@ -1,49 +1,70 @@
+/* ---------------------------------------------
+   ESTILOS GENERALES
+---------------------------------------------- */
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
-  padding: 0;
   background: #f0fff4;
   color: #1a202c;
 }
 
+h1, h2, h3 {
+  text-align: center;
+}
+
+/* ---------------------------------------------
+   ENCABEZADO / NAVEGACIÓN
+---------------------------------------------- */
 .header {
   background: #2c7a7b;
-  color: white;
+  color: #fff;
   padding: 1rem;
   text-align: center;
 }
 
 .header nav a {
-  color: white;
+  color: #fff;
   margin: 0 10px;
   text-decoration: none;
   font-weight: 500;
 }
 
-.header nav a.active,
-.header nav a:hover {
+.header nav a:hover,
+.header nav a.active {
   text-decoration: underline;
 }
 
+/* ---------------------------------------------
+   SECCIÓN PRINCIPAL (HERO)
+---------------------------------------------- */
 .hero {
+  padding: 4rem 1rem;
   text-align: center;
-  padding: 3rem 1rem;
   background: linear-gradient(180deg, #81e6d9, #e6fffa);
 }
 
 .btn {
   background: #2c7a7b;
-  color: white;
+  color: #fff;
   padding: 0.7rem 1.2rem;
   border-radius: 8px;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 600;
+  transition: 0.3s;
 }
 
 .btn:hover {
   background: #319795;
 }
 
+.btn.grande {
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+}
+
+/* ---------------------------------------------
+   SECCIONES CON TARJETAS
+---------------------------------------------- */
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -52,10 +73,10 @@ body {
 }
 
 .cards article {
-  background: white;
+  background: #fff;
   padding: 1rem;
   border-radius: 12px;
-  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
 
@@ -64,6 +85,34 @@ body {
   border-radius: 10px;
 }
 
+/* ---------------------------------------------
+   GALERÍA DE IMÁGENES
+---------------------------------------------- */
+.galeria {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.galeria .imagenes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.galeria img {
+  width: 100%;
+  border-radius: 12px;
+  transition: transform 0.3s;
+}
+
+.galeria img:hover {
+  transform: scale(1.05);
+}
+
+/* ---------------------------------------------
+   FORMULARIO DE CONTACTO
+---------------------------------------------- */
 .contact form {
   max-width: 400px;
   margin: 2rem auto;
@@ -72,7 +121,8 @@ body {
   gap: 1rem;
 }
 
-input, textarea {
+input,
+textarea {
   padding: 0.6rem;
   border: 1px solid #a0aec0;
   border-radius: 8px;
@@ -83,10 +133,39 @@ button {
   cursor: pointer;
 }
 
+/* ---------------------------------------------
+   SECCIÓN EXTRA (REDES SOCIALES)
+---------------------------------------------- */
+.extra {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.extra a {
+  color: #2c7a7b;
+  text-decoration: none;
+}
+
+.extra a:hover {
+  text-decoration: underline;
+}
+
+/* ---------------------------------------------
+   SECCIÓN “PARTICIPA”
+---------------------------------------------- */
+.participa {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: #e6fffa;
+}
+
+/* ---------------------------------------------
+   PIE DE PÁGINA (FOOTER)
+---------------------------------------------- */
 .footer {
   text-align: center;
   background: #2c7a7b;
-  color: white;
+  color: #fff;
   padding: 1rem;
   margin-top: 2rem;
 }

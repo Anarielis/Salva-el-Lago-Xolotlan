@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contacto - Salvá el Lago Xolotlán</title>
+  <title>Contacto – Salvá el Lago Xolotlán</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -17,25 +17,35 @@
   </header>
 
   <main class="contact">
-    <h2>Escríbenos y únete a la causa</h2>
-    <form id="contactForm">
-      <label for="name">Nombre completo:</label>
-      <input type="text" id="name" name="name" required>
+    <h2>Únete a la causa</h2>
 
-      <label for="email">Correo electrónico:</label>
-      <input type="email" id="email" name="email" required>
+    <!-- Formspree: reemplaza TU_CORREO por tu correo real -->
+    <form id="contactForm" action="https://formspree.io/f/TU_CORREO" method="POST">
+      <label>Nombre completo:</label>
+      <input type="text" name="name" required>
 
-      <label for="message">Mensaje:</label>
-      <textarea id="message" name="message" rows="4" required></textarea>
+      <label>Correo electrónico:</label>
+      <input type="email" name="_replyto" required>
+
+      <label>Mensaje:</label>
+      <textarea name="message" rows="4" required></textarea>
 
       <button type="submit" class="btn">Enviar mensaje</button>
     </form>
+
+    <section class="extra">
+      <h3>Síguenos</h3>
+      <p>
+        🌎 <a href="#">Facebook</a><br>
+        📸 <a href="#">Instagram</a><br>
+        📍 Managua, Nicaragua
+      </p>
+    </section>
   </main>
 
   <footer class="footer">
-    <p>&copy; 2025 Salvá el Lago Xolotlán</p>
+    <p>&copy; <span id="year"></span> Salvá el Lago Xolotlán</p>
   </footer>
-
   <script src="js/script.js"></script>
 </body>
 </html>
