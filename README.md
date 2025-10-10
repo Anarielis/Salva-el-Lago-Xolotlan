@@ -1,8 +1,10 @@
 # 🌊 Proyecto Final: “Salvá el Lago Xolotlán”
 
 **Presentado por:**  
-👩‍💻 *Anarielis Madrigal*  
-👨‍💻 *Miguel Solís*
+👩‍💻 *Anarielis Madrigal 22-05383-1*  
+👨‍💻 *Miguel Solís 22-09275-1*
+
+**Grupo:** Gp 1
 
 **Asignatura:** *PROGRAMACIÓN CON CONTROL DE VERSIONES CVS II*  
 **Docente:** *Edilberto Lacayo*  
@@ -39,8 +41,9 @@ Incluye tres secciones principales:
 
 ## 🌐 Enlace del sitio web y repositorio
 
-https://anarielis.github.io/Salva-el-Lago-Xolotlan/
-https://github.com/Anarielis/Salva-el-Lago-Xolotlan.git
+**https://anarielis.github.io/Salva-el-Lago-Xolotlan/**
+
+**https://github.com/Anarielis/Salva-el-Lago-Xolotlan.git**
 
 ---
 
