@@ -37,9 +37,10 @@ Incluye tres secciones principales:
 
 ---
 
-## 🌐 Enlace del sitio web
+## 🌐 Enlace del sitio web y repositorio
 
 https://anarielis.github.io/Salva-el-Lago-Xolotlan/
+https://github.com/Anarielis/Salva-el-Lago-Xolotlan.git
 
 ---
 
